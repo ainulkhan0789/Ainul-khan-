@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chatsection{
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 350px;
+
+}
+.chatsection >p:nth-child(odd){
+    background-color: aqua;
+    width:fit-content;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.chatsection>p:nth-child(even){
+    background-color: blueviolet;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inp{
+    width: 290px;
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+}
